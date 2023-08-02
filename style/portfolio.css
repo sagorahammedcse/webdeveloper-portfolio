@@ -38,7 +38,56 @@ font-weight: 700;
 padding: 16px 35px;}
 .header{
     background: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner .profile{
+  width: 500px;
+}
+.banner-content{
+
+}
+.banner-greeting{
+font-size: 45px;
+margin-bottom: 0;
+color: #474747;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700px;
+    margin-top: 5px;
+    margin-bottom: 150px;
+
+}
+.about{
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px;
+    margin: 130px 0px;
+}
+.section-title{
+    color: var(--dark-01, #181818);
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+
+}
+.section-description{
+    color: var(--dark-03, #757575);
+text-align: center;
+
+font-size: 18px;
+
+font-weight: 400;
+
 }
