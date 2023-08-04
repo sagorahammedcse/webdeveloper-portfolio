@@ -32,10 +32,10 @@ nav a{
 .btn-primary{
     border-radius: 5px;
 background: #FD6E0A;
-color: white;
-font-size: 20px;
-font-weight: 700;
-padding: 16px 35px;}
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 35px;}
 .header{
     background: #FFF8F3;
     background-image: url('../images/header_bg.png');
@@ -58,9 +58,9 @@ padding: 16px 35px;}
 
 }
 .banner-greeting{
-font-size: 45px;
-margin-bottom: 0;
-color: #474747;
+    font-size: 45px;
+    margin-bottom: 0;
+    color: #474747;
 }
 .banner-title{
     font-size: 85px;
@@ -77,18 +77,16 @@ color: #474747;
 }
 .section-title{
     color: var(--dark-01, #181818);
-text-align: center;
-font-size: 35px;
-font-weight: 700;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
 
 }
 .section-description{
     color: var(--dark-03, #757575);
-text-align: center;
-
-font-size: 18px;
-
-font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 
 }
 main{
@@ -121,11 +119,55 @@ main section{
 .skill-description{
     color: #757575);
 }
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
 .resume-culumn-title{
     color: #474747);
+    font-size: 30px;
+    font-weight: 700;
 
-font-size: 30px;
-
-font-weight: 700;
-
+}
+.resume-item-institute,.resume-item-description{
+    color: #757575;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+ 
+}
+.doawnload-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+    gap: 100px;
+}
+.social-links a{
+    margin-right: 25px;
+}
+.footer-culumn{
+    width: 50%;
+}
+.contact input[type="text"],.contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
 }
