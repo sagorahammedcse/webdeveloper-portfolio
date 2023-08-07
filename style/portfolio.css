@@ -38,8 +38,8 @@ background: #FD6E0A;
     padding: 16px 35px;}
 .header{
     background: #FFF8F3;
-    background-image: url('../images/header_bg.png');
-    background-position: bottom right;
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-position: bottom right,top left;
     background-repeat: no-repeat;
 }
 .banner{
